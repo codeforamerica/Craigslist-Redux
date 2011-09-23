@@ -1,0 +1,338 @@
+/*                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~                                   
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                           
+                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                       
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                     
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                  
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~           
+         ~~~~~~~~MM:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          
+         ~~~~~~~~M MN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+       ~~~~~~~~~:M . MM?~~~:~~~~~:~~~~:~~~~:~IMMMMM$~~~:~~~~~~~~~~:~~~~~~~~~~~~~~~~~~~~~~~~~        
+      ~~~~~~~~~~~M   . IMMMN+:~~~~~$DMMMMMMMMI...  ,NMMMMMMMNZ=~~~I8MMMMM8~~~~~~~~~~~~~~~~~~~       
+     ~~~~~~~~~~~~MMMMMMMMMMMMMMMMMMM..   ... .      ..  ..  . .    .   MMMMM7~~~~~~~~~~~~~~~~~      
+    ~~~~~~~~~~~~~MMMMMMMMMMMMMMMMM:                                     ,MMMM?~~~~~~~~~~~~~~~~    
+    ~~~~~~~~~~~~~MMMMMMMMMMMMMMM...                                     ..NMMZ~~~~~~~~~~~~~~~~~    
+   ~~~~~~~~::~~~$MMMMMMMMMMMMMN.                                        .  MM~~~~~~~~~~~~~~~~~~~   
+   ~~~~~~~~:~MMI.OMMMMMMMMMMM...                                           OM~~~~~~~~~~~~~~~~~~~   
+  ~~~~~~~~=MM  .  MMMMMMMMMN                              .. ..        M.  7M~~~~~~~~~~~~~~~~~~~~
+ ~~~~~~~MM,   MMMMMMMMMMMM...                             .+++.      .M . .M~~~~~~~~~~~~~~~~~~~~~ 
+ ~~~~=MN. .$MMMMMMMMMMMMZ                ... ....7MMMMMNMMMMMMMMMMMN......ZM~~~~~~~~~~~~~~~~~~~~~~  
+ ~~DM~...MMMMMMMMMMMMM~.            ...   IMMMMMMMMMMMM. MMMMMMMMMMMMM ..MN~~~~~~~~~~~~~~~~~~~~~~~  
+77MI  +MMMMMMMMMMMMMD.           . .. MMMMMMMMMMMMMMMM  ..MMMMMMMMMMMMM7M~~~~~~~~~~~~~~~~~~~~~~~~~ 
+M: .8MMMMMMMMMMMMM,        .     ?MMMMMMMMMMMMMMMMMMMM    MMMMMMM?IMMMM?:~~~~~~~~~~~~~~~~~~~~~~~~~~
+ .,MMMMMMMMMMMMI             .8MMMMM.  MMMMMMMMMMMMMMMZ.ZMMMMI..... MM~~~:~~~~~~~~~~~~~~~~~~~~~~~~~
+.MMMNZ$$$$$$~ ..      . . .MMMMMMMM   ,MMMMMMMMMMMMMMMMMD  ..  .  NM:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+M8$$$$$$$$7   .       ...MMMMMMMMMM    MMMMMMMMMMMMMM8   .      IM7~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$$$$.         ...DMMMMMMMMMMMMM:   $MMMMMMMMM=.  .        OM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$$$           . MMMMMMMMMMMMMMMMMI  .:MMMMZ  .   .       ,M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$$.           .MMMMMMMMMMMMMMMMMMMMMMMMM+                D8~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$$.       .  .Z$MMMMMMMMMMMMMMMMMMMMMMM                   M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$$ .      .  =$$$MMMMMMMMMMMMMMMMMMMMM:..                 M7~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$.      .. $$$$$$MMMMMMMMMMMMMMMMMMM .                  .~M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$$$$        $$$$$$$$NMMMMMMMMMMMMMMMMN...                  .M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+?$$$ .   I$$$$$$$$$$ZMMMMMMMMMMMMMMM:.                    .MO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ $$$$$$$$$$$$$$$$$$$$MMMMMMMMMMMMMM:.                     =M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+ $$$$$$$$$$$$$$$$$$$$MMMMMMMMMMMMM:                      MM:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+ +$$$$$$$$$$$$$$$$$$$MMMMMMMMMMMMN.                    .MM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+  $$$$$$$$$$$$$$$$$$$ZMMMMMMMMMMD...                 . N~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+  +$$$$$$$$$$$$$$$$$$$MMMMMMMMMM                   ..DM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+   $$$$$$$$$$$$$$$$$$$MMMMMMMMM$.                  NM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+    $$$$$$$$$$$$$$$$$$8MMMMMMMM .           .. .7MM+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+    +$$$$$$$$$$$$$$$$$$MMMMMMM8            ZMMMO~:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+     Z$$$$$$$$$$$$$$$$$MMMMMMM        . ..MM:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+      $$$$$$$$$$$$$$$$$ZMMMMMM...     ..$M=:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+       $$$$$$$$$$$$$$$$$MMMMMM         OM~~:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~       
+        $$$$$$$$$$$$$$$$$MMMM$      . MN~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+         $$$$$$$$$$$$$$$$MMMM=       8M::~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          
+          =$$$$$$$$$$$$$$$MMM.      $M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~          
+            Z$$$$$$$$$$$$$MMM=      M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+             $$$$$$$$$$$$$$MMZ   ..M=:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              
+              =$$$$$$$$$$$$NMM    .M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            
+                ~$Z$$$$$$$$$MM.. .M+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               
+                  $$$$$$$$$$ZM7 ..M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~               
+                    ?$$$$$$$$OM  .M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                 
+                      ?$$$$$$$MM. M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                       
+                         ~$$$$$NM M~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                          
+                            77$$MM$M:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                             
+                                7$MMO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                            
+                                   ++N:~~~~~~~~~~~~~~~~~~~~~~                                  
+                                                                           
+									 
+									 
+THIS CODE HAS BEEN BROUGHT TO YOU BY: CODE FOR AMERICA (http://codeforamerica.org)
+- Project Creator: Pete Fecteau (http://buttonpresser.com)
+
+Special thanks to:
+- John Mertens (http://mertonium.com/)
+- Talin Salway (http://codeforamerica.org/author/talin/)
+
+*/
+
+# {
+	font-family:Helvetica, Arial, sans-serif;
+	line-height:150%;
+	}
+a:link, a:visited {
+	color:#003b59;
+	text-transform:capitalize;
+	line-height:150%;
+	text-decoration:none;
+	}
+a:hover, a:active {
+	color:#00996d;
+	}
+.header{
+   width: 70%;
+   left: 25%;
+   clear: both;
+   float: left;
+   position: relative;
+   border-bottom: #000 1px solid;
+}
+.colmask, .colmid, .colin, .colleft {
+   position:absolute;
+   width: 960px;
+   top:0;
+   left:50%;
+   margin-left: -480px;
+}
+
+.box_1{
+   width: 225px;
+   left:50%;
+   margin-left:-480px
+}
+.box_2{
+   width: 225px;
+   left:50%;
+   margin-left:-235px;
+}
+.box_3{
+   width: 225px;
+   left:50%;
+   margin-left:10px;
+}
+.box_4{
+   width: 225px;
+   left:50%;
+   margin-left:20px;
+}
+.footer{
+   width: 50%;
+   left: 25%
+}
+
+.colmask{
+   clear: both;
+   float: left;
+   overflow: visible;
+   position: relative;
+}
+.colmid{
+   float: left;
+   position: relative;
+}
+.colin{
+   float: left;
+   position: relative;
+}
+.colleft{
+   float: left;
+   position: relative;
+}
+.footer{
+   clear: both;
+   float: left;
+   position: relative;
+}
+.bottom{
+   clear: both;
+   width: 100%;
+   float: left;
+   position: relative;
+}
+
+
+/** START MAIN HOVER **/
+
+.box_1, .box_2, .box_3, .box_4 {
+	list-style:none;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding: 0px 0px 1em 0px;
+    overflow: visible;
+    float: left;
+    position: relative;
+	width:225px;
+	font-family:Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+	position:relative;
+	z-index:5;
+}
+.box_1 .state_delimiter, .box_2 .state_delimiter, .box_3 .state_delimiter, .box_4 .state_delimiter {
+	display:block;
+	padding:5px;
+	color:#333;
+	background:#CCC;
+	margin-bottom:5px;
+	text-decoration:none;
+	-moz-border-radius: 2px;
+    border-radius: 2px;
+	min-height:12px;
+}
+.box_1 .state_delimiter:hover, .box_2 .state_delimiter:hover, .box_3 .state_delimiter:hover, .box_4 .state_delimiter:hover {
+	color:#333;
+	background:#999;
+}
+
+/** END MAIN HOVER **/
+
+/** START CHILD HOVER **/
+
+.box_1 ul, .box_2 ul, .box_3 ul, .box_4 ul {
+	list-style:none;
+	position:absolute;
+	left:-9999px;
+	width:225px;
+	padding-top:4px;
+	background-color:#FFF;
+}
+.box_1 ul li, .box_2 ul li, .box_3 ul li, .box_4 ul li {
+	padding-top:1px;
+	float:none;
+	margin-bottom:9px;
+	margin-right:4px;
+	margin-left:-40px;
+}
+.box_1 ul li a, .box_2 ul li a, .box_3 ul li a, .box_4 ul li a {
+	white-space:nowrap;
+	width:225px;
+}
+.box_1:hover a, .box_2:hover a, .box_3:hover a, .box_4:hover a {
+	text-decoration:underline;
+	padding:5px 10px;
+	-moz-border-radius: 2px;
+    border-radius: 2px;
+	background:#333;
+	color:#FFF;
+	width:225px;
+}
+.box_1:hover ul a, .box_2:hover ul a, .box_3:hover ul a, .box_4:hover ul a {
+	text-decoration:none;
+	width:225px;
+	height:40px;
+}
+.box_1:hover ul li a:hover, .box_2:hover ul li a:hover, .box_3:hover ul li a:hover, .box_4:hover ul li a:hover {
+	background:#00996d;
+}
+.state_delimiter:hover + ul, .state_delimiter + ul:hover {
+	position:relative;
+	left:0;
+	margin: -4px  0 0 0;
+}
+
+/** END CHILD HOVER **/
+
+
+ul .states { 
+  background-color: #F4F4F4;
+}
+a { 
+  font-family: sans-serif;
+}   
+#moo ul li:before {
+  content: "\00BB \0020";
+}
+#logo  {
+	background:url(../images/HEADER.png) no-repeat center center #FFF;
+	height:220px;
+	font-size:0px;
+} 
+#suggest_form  { 
+  position: relative;
+  float: right;
+} 
+form#suggest {
+  position:relative;
+}
+div#new_city_label {
+  position:absolute;
+  float:right;
+  margin-right:3px;
+}
+input#newarea-field {
+  width:10em;
+}
+label.overlabel {
+  position:absolute;
+  top:3px;
+  left:5px;
+  z-index:1;
+  color:#999;
+}
+h1 { 
+  font-size: 24px;
+  font-weight: 500;
+  color:#ff930e;
+  font-family:Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+}  
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 80%;
+   width: 100%;
+   min-width: 600px;
+   white-space: nowrap;
+}
+div.jump_to_continents { 
+  position:absolute;
+  top:150px;
+  left:50%;
+  margin: 10px 0 10px -478px;
+  clear: both;
+  display: block;
+  list-style-type: none;
+  padding: 10px 0;
+  text-align: center;
+} 
+div.jump_to_continents a {
+  padding:5px 10px;
+  font-size: 14px;
+  color:#FFF;
+  background-color:#003b59;
+  margin-right:2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+div.jump_to_continents a:hover {
+	background-color:#00996d;
+}
+div.footer {
+  margin: 20px auto;
+  clear: both;
+  display: block;
+  list-style-type: none;
+  padding: 20px 0;
+  text-align: center;
+}
+div.footer  a, div.footer span {
+  margin: 0 20px 0 0;
+  font-size: 11px;
+  font-family:Helvetica, Arial, sans-serif;
+  color:#003b59;
+}
+.footer strong:after {
+	content: "Craigslist Redux is brought to you by: Code for America";
+	font-size:11px;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#003b59;
+	font-weight:normal;
+}
