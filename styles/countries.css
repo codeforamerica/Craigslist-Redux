@@ -250,7 +250,7 @@ a {
   content: "\00BB \0020";
 }
 #logo  {
-	background:url(../images/HEADER.png) no-repeat center center #FFF;
+	background:url(https://github.com/codeforamerica/Craigslist-Redux/raw/master/images/HEADER.png) no-repeat center center #FFF;
 	height:220px;
 	font-size:0px;
 } 
@@ -296,7 +296,7 @@ div.jump_to_continents {
   position:absolute;
   top:150px;
   left:50%;
-  margin: 10px 0 10px -478px;
+  margin: 10px 0 10px -480px;
   clear: both;
   display: block;
   list-style-type: none;
