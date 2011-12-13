@@ -77,16 +77,16 @@ Special thanks to:
 	font-family:Helvetica, Arial, sans-serif;
 	line-height:150%;
 	}
-a:link, a:visited {
+.home a:link, a:visited {
 	color:#003b59;
 	text-transform:capitalize;
 	line-height:150%;
 	text-decoration:none;
 	}
-a:hover, a:active {
+.home a:hover, a:active {
 	color:#00996d;
 	}
-.header{
+.home .header{
    width: 70%;
    left: 25%;
    clear: both;
@@ -94,7 +94,7 @@ a:hover, a:active {
    position: relative;
    border-bottom: #000 1px solid;
 }
-.colmask, .colmid, .colin, .colleft {
+.home .colmask, .colmid, .colin, .colleft {
    position:absolute;
    width: 960px;
    top:0;
@@ -102,55 +102,55 @@ a:hover, a:active {
    margin-left: -480px;
 }
 
-.box_1{
+.home .box_1{
    width: 225px;
    left:50%;
    margin-left:-480px
 }
-.box_2{
+.home .box_2{
    width: 225px;
    left:50%;
    margin-left:-235px;
 }
-.box_3{
+.home .box_3{
    width: 225px;
    left:50%;
    margin-left:10px;
 }
-.box_4{
+.home .box_4{
    width: 225px;
    left:50%;
    margin-left:20px;
 }
-.footer{
+.home .footer{
    width: 50%;
    left: 25%
 }
 
-.colmask{
+.home .colmask{
    clear: both;
    float: left;
    overflow: visible;
    position: relative;
 }
-.colmid{
+.home .colmid{
    float: left;
    position: relative;
 }
-.colin{
+.home .colin{
    float: left;
    position: relative;
 }
-.colleft{
+.home .colleft{
    float: left;
    position: relative;
 }
-.footer{
+.home .footer{
    clear: both;
    float: left;
    position: relative;
 }
-.bottom{
+.home .bottom{
    clear: both;
    width: 100%;
    float: left;
@@ -160,7 +160,7 @@ a:hover, a:active {
 
 /** START MAIN HOVER **/
 
-.box_1, .box_2, .box_3, .box_4 {
+.home .box_1, .home .box_2, .home .box_3, .home .box_4 {
 	list-style:none;
 	font-size:12px;
 	font-weight:bold;
@@ -175,7 +175,7 @@ a:hover, a:active {
 	position:relative;
 	z-index:5;
 }
-.box_1 .state_delimiter, .box_2 .state_delimiter, .box_3 .state_delimiter, .box_4 .state_delimiter {
+.home .box_1 .state_delimiter, .home .box_2 .state_delimiter, .home .box_3 .state_delimiter, .home .box_4 .state_delimiter {
 	display:block;
 	padding:5px;
 	color:#333;
@@ -185,8 +185,9 @@ a:hover, a:active {
 	-moz-border-radius: 2px;
     border-radius: 2px;
 	min-height:12px;
+	border-top:0;
 }
-.box_1 .state_delimiter:hover, .box_2 .state_delimiter:hover, .box_3 .state_delimiter:hover, .box_4 .state_delimiter:hover {
+.home .box_1 .state_delimiter:hover, .home .box_2 .state_delimiter:hover, .home .box_3 .state_delimiter:hover, .home .box_4 .state_delimiter:hover {
 	color:#333;
 	background:#999;
 }
@@ -195,7 +196,7 @@ a:hover, a:active {
 
 /** START CHILD HOVER **/
 
-.box_1 ul, .box_2 ul, .box_3 ul, .box_4 ul {
+.home .box_1 ul, .home .box_2 ul, .home .box_3 ul, .home .box_4 ul {
 	list-style:none;
 	position:absolute;
 	left:-9999px;
@@ -203,18 +204,18 @@ a:hover, a:active {
 	padding-top:4px;
 	background-color:#FFF;
 }
-.box_1 ul li, .box_2 ul li, .box_3 ul li, .box_4 ul li {
+.home .box_1 ul li, .home .box_2 ul li, .home .box_3 ul li, .home .box_4 ul li {
 	padding-top:1px;
 	float:none;
 	margin-bottom:9px;
 	margin-right:4px;
 	margin-left:-40px;
 }
-.box_1 ul li a, .box_2 ul li a, .box_3 ul li a, .box_4 ul li a {
+.home .box_1 ul li a, .home .box_2 ul li a, .home .box_3 ul li a, .home .box_4 ul li a {
 	white-space:nowrap;
 	width:225px;
 }
-.box_1:hover a, .box_2:hover a, .box_3:hover a, .box_4:hover a {
+.home .box_1:hover a, .home .box_2:hover a, .home .box_3:hover a, .home .box_4:hover a {
 	text-decoration:underline;
 	padding:5px 10px;
 	-moz-border-radius: 2px;
@@ -223,15 +224,15 @@ a:hover, a:active {
 	color:#FFF;
 	width:225px;
 }
-.box_1:hover ul a, .box_2:hover ul a, .box_3:hover ul a, .box_4:hover ul a {
+.home .box_1:hover ul a, .home .box_2:hover ul a, .home .box_3:hover ul a, .home .box_4:hover ul a {
 	text-decoration:none;
 	width:225px;
 	height:40px;
 }
-.box_1:hover ul li a:hover, .box_2:hover ul li a:hover, .box_3:hover ul li a:hover, .box_4:hover ul li a:hover {
+.home .box_1:hover ul li a:hover, .home .box_2:hover ul li a:hover, .home .box_3:hover ul li a:hover, .home .box_4:hover ul li a:hover {
 	background:#00996d;
 }
-.state_delimiter:hover + ul, .state_delimiter + ul:hover {
+.home .state_delimiter:hover + ul, .home .state_delimiter + ul:hover {
 	position:relative;
 	left:0;
 	margin: -4px  0 0 0;
@@ -240,50 +241,51 @@ a:hover, a:active {
 /** END CHILD HOVER **/
 
 
-ul .states { 
+.home ul .states { 
   background-color: #F4F4F4;
 }
-a { 
+.home a { 
   font-family: sans-serif;
 }   
-#moo ul li:before {
+.home #moo ul li:before {
   content: "\00BB \0020";
 }
-#logo  {
-	background:url(https://github.com/codeforamerica/Craigslist-Redux/raw/master/images/HEADER.png) no-repeat center center #FFF;
+.home #logo  {
+	background:url(http://buttonpresser.com/CLRDX/images/HEADER.png) no-repeat center center #FFF;
 	height:220px;
 	font-size:0px;
 } 
-#suggest_form  { 
+.home #suggest_form  { 
   position: relative;
   float: right;
 } 
-form#suggest {
+.home form#suggest {
   position:relative;
 }
-div#new_city_label {
+.home div#new_city_label {
   position:absolute;
   float:right;
   margin-right:3px;
 }
-input#newarea-field {
+.home input#newarea-field {
   width:10em;
 }
-label.overlabel {
+.home label.overlabel {
   position:absolute;
   top:3px;
   left:5px;
   z-index:1;
   color:#999;
 }
-h1 { 
+.home h1 { 
   font-size: 24px;
   font-weight: 500;
   color:#ff930e;
   font-family:Helvetica, Arial, sans-serif;
   text-transform:uppercase;
+  border-bottom:0;
 }  
-body {
+.home {
    border-width: 0px;
    padding: 0px;
    margin: 0px;
@@ -292,7 +294,7 @@ body {
    min-width: 600px;
    white-space: nowrap;
 }
-div.jump_to_continents { 
+.home div.jump_to_continents { 
   position:absolute;
   top:150px;
   left:50%;
@@ -303,7 +305,7 @@ div.jump_to_continents {
   padding: 10px 0;
   text-align: center;
 } 
-div.jump_to_continents a {
+.home div.jump_to_continents a {
   padding:5px 10px;
   font-size: 14px;
   color:#FFF;
@@ -312,10 +314,10 @@ div.jump_to_continents a {
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
-div.jump_to_continents a:hover {
+.home div.jump_to_continents a:hover {
 	background-color:#00996d;
 }
-div.footer {
+.home div.footer {
   margin: 20px auto;
   clear: both;
   display: block;
@@ -323,13 +325,13 @@ div.footer {
   padding: 20px 0;
   text-align: center;
 }
-div.footer  a, div.footer span {
+.home div.footer  a, .home div.footer span {
   margin: 0 20px 0 0;
   font-size: 11px;
   font-family:Helvetica, Arial, sans-serif;
   color:#003b59;
 }
-.footer strong:after {
+.home .footer strong:after {
 	content: "Craigslist Redux is brought to you by: Code for America";
 	font-size:11px;
 	font-family:Helvetica, Arial, sans-serif;
